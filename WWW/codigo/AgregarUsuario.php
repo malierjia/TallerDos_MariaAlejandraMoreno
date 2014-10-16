@@ -55,7 +55,7 @@ $query= "INSERT INTO tallerDos.cliente (`id`, `nombre`, `apellido`, `contrasena`
 mysqli_query($con,$query);
 
 //cuando acaba vuelve a la pagina de login
-header('Location: login.php');
+header('Location: login.php?paginaDestino=index.php');
 ?>
 
 </body>
